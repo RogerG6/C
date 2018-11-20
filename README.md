@@ -1,5 +1,5 @@
-# hello-world.c
-something about C
+//# hello-world.c
+//something about C
 
 # include <stdio.h>
 int main(void)
