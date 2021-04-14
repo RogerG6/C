@@ -2,10 +2,12 @@
  * Author: rogerg6*
  * Func: 计算器小程序
  * 			采用EBNF语法：
- * 			+-和* /连续运算可以通过while循环解决
- *			+- * / 的混合运算，可以通过函数来解决
- *			() 运算可以通过递归来解决
- */
+ * 				分3层：
+ *					1. 输入的表达式exp
+ *					2. exp中的项，即函数mul_div
+ *					3. 项中的因子，即函数get_fact
+ */ 
+
 
 #include <stdio.h>
 #include <ctype.h>
